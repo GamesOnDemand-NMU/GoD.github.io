@@ -1,8 +1,9 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: #333435;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Wrapping element */
@@ -13,9 +14,15 @@ body {
     justify-content: center;
     text-align: center;
 }
-.btn{
-    margin-bottom: 1em;
+.btn {
+    margin-bottom: auto;
     align-self: center;
+    border: 1px solid #00E676;
+    color: #00E676;
+}
+.btn:hover{
+    color:#f1f2eb;
+    background-color:#00E676;
 }
 
 div{
@@ -34,7 +41,7 @@ textarea {
     max-width: 280px;
 }
 
-.logo{
+.logo-WS{
    max-width: 30%;
    min-width: 20%; 
 
