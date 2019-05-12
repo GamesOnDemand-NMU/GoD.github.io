@@ -4,6 +4,7 @@ body {
     padding-bottom: 50px;
     background-color: #333435;
     font-family: 'Roboto Condensed', sans-serif;
+   
 }
 
 /* Wrapping element */
@@ -34,11 +35,27 @@ div{
 h1{
     color:#f1f2eb;
 }
+
+label {
+    font-size: 18px;
+    color: #00E676;
+    clear: both;
+    float: left;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 16px;
+
+}
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 100%;
+    align-items:center;
 }
 
 .logo-WS{
