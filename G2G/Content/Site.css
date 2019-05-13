@@ -1,10 +1,9 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-color: #333435;
     font-family: 'Roboto Condensed', sans-serif;
-   
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Wrapping element */
@@ -62,6 +61,26 @@ textarea {
    max-width: 30%;
    min-width: 20%; 
 
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.logo-nav{
+    max-width:100%;
+}
+
+.bg-g2g{
+    background-color:#4f5357;
+}
+
+a.navbar-brand {
+    max-width: 72px;
+    max-height: 72px;
 }
 
 /* Responsive: Portrait tablets and up */
