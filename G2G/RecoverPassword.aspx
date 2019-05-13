@@ -16,7 +16,23 @@
 </head>
 <body>
     <form id="RecoverPassword" runat="server">
-        <div>
+        <div class="container container-fluid d-flex">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="Images/ProductLogo.png" alt="Game2Gether" class="img-fluid logo-WS" /><br />                        
+                    <h1>Enter an email address to recover your password</h1><br/><br/>
+                </div>
+                <div class="row">
+                    <div class="col-12 form-group">
+                        <label for="emailInput">Email Address:</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter Email Address" /><br/>
+                        
+
+                        <asp:Button runat="server" text="Recover Password" CssClass="btn btn-block btn-lg" id="btnRecoverPW" OnClick="btnRecoverPW_Click" />
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </body>

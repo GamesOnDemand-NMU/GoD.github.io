@@ -13,5 +13,10 @@ namespace G2G
         {
 
         }
+
+        protected void btnRecoverPW_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
