@@ -119,6 +119,7 @@
     <Content Include="FindPlayer.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Friends.aspx" />
+    <Content Include="Games.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -221,6 +222,13 @@
     </Compile>
     <Compile Include="Friends.aspx.designer.cs">
       <DependentUpon>Friends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Games.aspx.cs">
+      <DependentUpon>Games.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Games.aspx.designer.cs">
+      <DependentUpon>Games.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -20,8 +20,8 @@
 <body>
     <form id="dashboard" runat="server">
 
+     <!--Start of navbar-->  
     <nav class="navbar navbar-expand-md navbar-dark bg-g2g fixed-top">
-
           <a class="navbar-brand" href="#"><img src="images/ProductLogo.png" class="logo-nav" alt="Game2Gether logo"/></a><!--Logo -->
            <ul class="navbar-nav active align-items-start">
                 <li class="nav-item dropdown float-lg-left">
@@ -32,7 +32,10 @@
                         <a class="dropdown-item" href="Friends.aspx">Friends</a>
                         <a class="dropdown-item" href="Help.aspx">Help</a>
                         <a class="dropdown-item" href="MyProfile.aspx">My Profile</a>
-                        <a class="dropdown-item" href="WebsiteRankings.aspx">Website Rankings</a>
+                        <a class="dropdown-item" href="WebsiteRankings.aspx"> Website Rankings</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
                     </div>
                 </li>
              </ul>
@@ -51,7 +54,62 @@
               </ul>
           </div>
     </nav>
-         
+    <!-- End of navbar -->   
+        
+
+    <!-- Dashboard items -->
+    <div class="container h-100 d-block" style="padding-top: 5em;">
+        <div class="row d-flex">
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="WebsiteRankings.aspx"><i class="fas fa-trophy fa-5x p-5"></i>
+                                                <br />
+                                                Website Rankings
+                                                <br />
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="MyProfile.aspx"><i class="fas fa-user fa-5x p-5"></i>
+                                                <br />
+                                                My Profile
+                                                <br />
+                </a>
+                                                
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="FindPlayer.aspx"><i class="fas fa-search fa-5x p-5"></i>
+                                                <br />
+                                                Find Player
+                                                <br />
+                </a>
+            </div>
+        </div><br/>
+
+        <div class="row d-flex">
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="CreateParty.aspx"><i class="fas fa-users fa-5x p-5"></i>
+                                                <br />
+                                                Create Party
+                                                <br />
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="Friends.aspx"><i class="fas fa-user-friends fa-5x p-5"></i>
+                                                <br />
+                                                Friends
+                                                <br />
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-block" href="Games.aspx"><i class="fas fa-gamepad fa-5x p-5"></i>
+                                                <br />
+                                                Games
+                                                <br />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Dashboard items -->
+
     </form>
 
 
