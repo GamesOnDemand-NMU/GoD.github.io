@@ -114,7 +114,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="CreateParty.aspx" />
     <Content Include="Dashboard.aspx" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FindPlayer.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -201,13 +200,6 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="FindPlayer.aspx.cs">
       <DependentUpon>FindPlayer.aspx</DependentUpon>

@@ -87,16 +87,23 @@ a.navbar-brand {
     max-height: 72px;
 }
 
-/* Dashboard */
-
-.btn-sq-default{
-    width: 500px !important;
-    height: 500px !important;
+li.list-group-item {
+    background-color: transparent;
+    border: 0px;
+    color: #00E676;
+    text-align: left;
+    font-size: 18px;
 }
 
+.partybar{
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    border: 2px solid #f1f2eb;
+    color: #00E676 !important;
+    background-color: #4f5357;
+}
 
-
-/* Dashboard */
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
